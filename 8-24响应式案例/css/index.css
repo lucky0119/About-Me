@@ -1,0 +1,146 @@
+.navbar {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: transparent;
+  border: none;
+}
+.carousel-indicators li {
+  width: 50px;
+  height: 3px;
+}
+.carousel-indicators .active {
+  width: 50px;
+  height: 3px;
+  background-color: #fff;
+}
+.item .carousel-caption {
+  display: flex;
+  justify-content: space-between;
+}
+.item .carousel-caption .banner1-left {
+  font-size: 50px;
+}
+.item .carousel-caption .banner1-right {
+  display: block;
+  font-size: 40px;
+}
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.main .text {
+  margin-top: 50px;
+  height: 90px;
+  text-align: center;
+}
+.main .text p {
+  font-size: 30px;
+}
+.main .text span {
+  font-size: 16px;
+  color: #919191;
+}
+.main .goods {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+.main .goods-1,
+.main .goods-2,
+.main .goods-3,
+.main .goods-4 {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  padding: 20px 10px;
+  color: #fff;
+  text-align: center;
+}
+.main .goods-1,
+.main .goods-2,
+.main .goods-3,
+.main .goods-4 {
+  background-color: #70c3ff;
+}
+.main .goods-1 p,
+.main .goods-2 p,
+.main .goods-3 p,
+.main .goods-4 p {
+  margin: 20px 0 10px;
+}
+.main .goods-1 span,
+.main .goods-2 span,
+.main .goods-3 span,
+.main .goods-4 span {
+  margin: 0 0 10px;
+}
+.main .goods-2 {
+  background-color: #fd6a7f;
+}
+.main .goods-3 {
+  background-color: #7f8ea0;
+}
+.main .goods-3 img {
+  width: 60px;
+  height: 60px;
+}
+.main .goods-4 {
+  background-color: #89d04f;
+}
+.main .goods-4 img {
+  width: 60px;
+  height: 60px;
+}
+.button {
+  display: block;
+  margin: 0 auto;
+  width: 105px;
+  height: 40px;
+  border: 1px solid #b1aeae;
+  box-shadow: 6px 6px 0 #fff;
+  border-radius: 6px;
+  text-align: center;
+  line-height: 40px;
+}
+.button a {
+  text-decoration: none;
+  color: #919191;
+}
+.produck {
+  margin: 0 auto;
+}
+.produck .ducks {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.produck .ducks .ducks-1,
+.produck .ducks .ducks-2,
+.produck .ducks .ducks-3,
+.produck .ducks .ducks-4 {
+  width: 260px;
+  height: 240px;
+}
+.produck .ducks .ducks-1 img,
+.produck .ducks .ducks-2 img,
+.produck .ducks .ducks-3 img,
+.produck .ducks .ducks-4 img {
+  width: 260px;
+  height: 165px;
+}
+.produck .ducks .ducks-1 h3,
+.produck .ducks .ducks-2 h3,
+.produck .ducks .ducks-3 h3,
+.produck .ducks .ducks-4 h3 {
+  font-size: 14px;
+  margin: 10px;
+}
+.produck .ducks .ducks-1 span,
+.produck .ducks .ducks-2 span,
+.produck .ducks .ducks-3 span,
+.produck .ducks .ducks-4 span {
+  font-size: 14px;
+}

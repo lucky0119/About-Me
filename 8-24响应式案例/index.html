@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./lib/jquery.js"></script>
+    <link rel="stylesheet" href="./lib/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+  
+</head>
+<body>
+
+  <!-- 导航栏区域 -->
+  <nav class="navbar navbar-default ">
+
+    <div class="container">
+      <div class="navbar-header">
+          <img src="./images/logo.png" alt="">
+      </div>
+
+      <ul class="nav navbar-nav navbar-right">
+          <li><a href="#" style="color: orange;">首页</a></li>
+          <li><a href="#">博客</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">TWeb Conf</a></li>
+          <li><a href="#">SuperStar</a></li>
+          <li><a href="#">Web前端导航</a></li>
+          <li><a href="#">关于</a></li>
+          </li>
+      </ul>
+    </div>
+    
+  </nav>
+
+  <div id="carousel-example-generic" class="carousel slide move" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" ></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- 轮播图区域 -->
+    <div class="carousel-inner " role="listbox">
+      <div class="item active">
+        <img src="./uploads/banner_1.jpg" alt="...">
+        <div class="carousel-caption">
+
+          <div class="banner1-left">
+            <p>征不平凡的你</p>
+          </div>
+          
+          <div class="banner1-right">
+            <p>腾讯AlloyTeam招聘Web+工程师</p>
+            <p>2020</p>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./uploads/banner_2.jpg" alt="...">
+        <div class="carousel-caption">
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./uploads/banner_3.jpg" alt="...">
+        <div class="carousel-caption3">
+         
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="./uploads/banner_4.jpg" alt="...">
+        <div class="carousel-caption">
+           <div class="banner4-top">
+            <p>Omi</p>
+          </div>
+
+          <div class="banner4-bottom">
+            <p>开放现代的Web组件化框架</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- 切换按钮 -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">上一页</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">下一页</span>
+    </a>
+  </div>
+
+  <!-- 主体内容区 -->
+<div class="main">
+  <!-- 文字区域 -->
+  <div class="text">
+    <p>OpenSource/开源项目</p>
+    <span>种类众多的开源项目，让你爱不释手</span>
+  </div>
+  <!-- 推荐模块 -->
+  <div class="goods container">
+    <div class="goods-1 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./images/omi.png" alt="">
+      <h3>OMI</h3>
+      <p>开放现代的Web组件化框架</p>
+    </div>
+    <div class="goods-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./images/alloyimage.png" alt="">
+      <h3>Alloyimage</h3>
+      <span>HTML5专业级图像处理引擎</span>
+    </div>
+    <div class="goods-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./images/alloytouch.png" alt="">
+      <h3>AlloyTouch</h3>
+      <sapn>丝般顺滑的运动触摸方案</sapn>
+    </div>
+    <div class="goods-4 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./images/soda.png" alt="">
+      <h3>soda</h3>
+      <span>高性能引擎模板</span>
+    </div>
+  </div>
+
+ <!-- 中间按钮区域 -->
+ <div class="button"><a href="#">更多开源 ></a></div>
+
+
+
+ <!-- 作品区域 -->
+ <div class="produck">
+  <!-- 文字区域 -->
+  <div class="text">
+    <p>Produck/开源项目</p>
+    <span>新奇好玩的作品 让你欲罢不能</span>
+  </div>
+  <!-- 推荐模块 -->
+  <div class="ducks container">
+    <div class="ducks-1 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./uploads/codetank.jpg" alt="">
+      <h3>Code Tank</h3>
+      <span style="margin: 10px;">全世界首个Javascript程序员在线...</span>
+    </div>
+    <div class="ducks-2 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./uploads/alloydesigner.png" alt="">
+      <h3>AlloyPhoto</h3>
+      <span style="margin: 10px;">专业在线图像处理APP</span>
+    </div>
+    <div class="ducks-3 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./uploads/alloyphoto.jpg" alt="">
+      <h3>AlloyDesigner</h3>
+      <sapn style="margin: 10px;">新概念Web开发工具</sapn>
+    </div>
+    <div class="ducks-4 col-lg-3 col-md-4 col-sm-6 col-xs-12">
+      <img src="./uploads/alloystick.jpg" alt="">
+      <h3>Alloystick</h3>
+      <span style="margin: 10px;">HTML5骨骼动画开发引擎</span>
+    </div>
+  </div>
+
+<!-- 中间按钮区域 -->
+<div class="button"><a href="#">更多作品 ></a></div>
+
+
+ <!-- 博客区域 -->
+ <div class="blog">
+  <!-- 文字区域 -->
+  <div class="text">
+    <p>Blog/博客</p>
+    <span>最新技术发展 业界前沿博客</span>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
+<script src="./js/jquery.js"></script>
+<script src="./lib/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
